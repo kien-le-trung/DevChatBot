@@ -1,0 +1,25 @@
+Crucial terms:
+- Access token:
+	+ a string
+	+ identify an app, a facebook page and a person
+	+ allow your app to make calls to Meta social graph => get the conversation
+	+ access to specific endpoints => your page can send and receive message
+
+-Level of access:
+	+ Standard: Your app can be used by people who have a role in the app
+	+ Advanced: Your app can be used by anyone => require App Review and Business Verification
+-Human agent:
+	+ 'Human_agent' tag allows you to call for human agents to handle messages
+	+ Within 7 days
+-Page-scoped IDs:
+	+ ID specific to a user on a fanpage
+	+ Allow mapping interactions with this specific user
+-Permissions required via login:
+	pages_show_list
+	pages_manage_metadata
+	pages_messaging
+	pages_read_engagement
+-Web-hooks:
+	+ Real-time notifications
+	+ Allow developers to be notified about the messages sent to their page
+	+ Notify developers about changes to specific objects in social graph

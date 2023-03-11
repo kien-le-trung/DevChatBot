@@ -1,0 +1,4 @@
+#gitignore is a file that where files that are NOT uploaded to Git will be listed
+
+/node_modules
+.env
